@@ -19,3 +19,18 @@ def submit():
         if model == "envy":
             messagebox.showinfo("Laptop Sales Tech", "Mr/Mrs "+name+", you have selected Envy, the cost is $500")
         elif model == "elitebook":
+  messagebox.showinfo("Laptop Sales Tech",
+                                "Mr/Mrs " + name + ", you have selected HP Elitebook, the cost is $800")
+        elif model == "pavilion":
+            messagebox.showinfo("Laptop Sales Tech",
+                                "Mr/Mrs " + name + ", you have selected pavilion, the cost is $800")
+    elif make == "Dell":
+        if model == "xps17":
+            messagebox.showinfo("Laptop Sales Tech",
+                                "Mr/Mrs " + name + ", you have selected Dell xps17, the cost is $500")
+        elif model == "inspion":
+            messagebox.showinfo("Laptop Sales Tech",
+                                "Mr/Mrs " + name + ", you have selected Dell inspion, the cost is $6600")
+        elif model == "latitude":
+            messagebox.showinfo("Laptop Sales Tech",
+                                "Mr/Mrs " + name + ", you have selected Dell latitude, the cost is $800")
